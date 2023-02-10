@@ -1,0 +1,29 @@
+.actionBarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  height: 100px;
+}
+
+.actionBarTitle {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.numberOfNotes {
+  font-weight: 300;
+}
+
+.numberOfFilters {
+  background-color: darkgreen;
+  border-radius: 50%;
+  padding: 4px;
+  color: white;
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.actionBarButton {
+  margin: 0 10px;
+}
