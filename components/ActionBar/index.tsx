@@ -1,11 +1,10 @@
-import styles from "./actionBar.module.css";
 import {
   AlignLeftOutlined,
   DownloadOutlined,
   FilterOutlined,
 } from "@ant-design/icons";
-
 import { Button } from "antd";
+import styles from "./actionBar.module.css";
 
 const ActionBar = () => {
   const actionBarButtons = [

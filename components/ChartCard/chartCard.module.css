@@ -5,3 +5,38 @@
 .bodyContainer {
   height: 350px;
 }
+
+.separator {
+  height: 1px;
+  width: 100%;
+  background-color: #e0e0e0;
+  margin: 20px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileImage {
+  border-radius: 50%;
+}
+
+.footerActionWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messageCount {
+  font-size: 25px;
+  font-weight: 500;
+  color: gray;
+  margin-right: 10px;
+}
+
+.messageIcon {
+  font-size: 25px;
+  color: gray;
+}
